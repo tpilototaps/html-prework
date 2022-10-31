@@ -1,0 +1,105 @@
+body, html {
+    height:"100%"; 
+    background-image: url("../images/IMG-5841.jpg");
+    background-size: 150;
+}
+nav li {
+    display: inline;
+    margin-right: 10px;
+    margin-left: 100px;
+    hover:
+}
+nav {
+    background-color: chocolate;
+}
+.hero-image {
+    background-image: url("../images/IMG-5057.jpg");
+    background-size: cover;  
+    background-position: center;
+    background-position: bottom;
+}
+.hero-text {
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 0px;
+}
+#main{
+    width:78%;
+    float: left;
+    height: 100%; 
+}
+#figures_1{
+    margin-left: 10pt;
+    margin-right:0pt;
+}
+#figures_2{
+    margin-left:10pt;
+}
+#me-sidebar{
+    padding-top: 40px;
+    float: right;
+    width: 22%;
+    background-color:beige;
+    text-align: center; 
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: px;
+}
+#me-sidebar ul{
+    list-style-type: none;   
+}
+a:hover{
+    color: lightblue
+}
+#profile-picture{
+    width: 200px;
+    border-radius:70%; 
+}
+#interesting-sidebar{
+    margin-top: 9px;
+    float: right;
+    width: 22%;
+    background-color: beige; 
+    border-radius: 8px;  
+}
+#interesting-sidebar ul{
+    list-style-type: none;
+}
+#contact{
+    margin-top: 9px;
+    background-color: beige;
+    float: right;
+    width: 22%;
+    border-radius: 8px;
+    height: 505px;
+}
+.main-article{
+    background-color: beige;
+    margin: 10px;
+    border-radius:8px;
+    padding-bottom: 1px;
+    padding-top:1px;
+
+}
+#intro{
+    margin-left: 10px;
+}
+.heading-description{
+    margin-left: 10px;
+}
+#form-header{
+    margin-left: 40px;
+}
+.form-text{
+    margin-left: 40px;
+    margin-bottom:10px ;
+}
+.me-list{
+    margin-left: -30px;
+}
+#P1{
+    margin-left: 10px;
+}
+#P2{
+    margin-left: 10px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class = "hero-image">
+        <div class = "hero-text">
+          <h1><strong>Tapiwa M. Piloto</strong></h1>
+          Aspiring Developer
+        </div>
+    </div>
+    <div>
+        <nav class = "header-nav">
+            <ul>
+                <li><strong>Click on one of the following tabs to learn more about me:</strong></li>
+                <li><a href="index.html"><strong>Home</strong></a></li>
+                <li><a href="profession.html"><strong>Profession</strong></a></li>
+                <li><a href="family.html"><strong>Family</strong></a></li>
+                <li><a href="hobbies.html"><strong>Hobbies</strong></a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <div id="main">
+            <article class="main-article">
+                <h1 id = "intro">Our UAVs</h1>
+                <p class="heading-description"><strong>"Eyes in the sky"</strong></p>
+                <figure id = "figures_1">
+                    <img src = "images/IMG-1222.jpg" width = "370px" height = "350px">
+                    <img src = "images/IMG-1223.jpg" width = "370px" height = "350px">
+                    <img src = "images/89ea8135-a929-482b-b4a9-553e76a594d0.JPG" width = "370px" height = "350px">
+                    <figcaption><em>Electic and hydrogen-powered heavy lifter drones</em></figcaption>
+                </figure>
+                <p id = "P1">I currently work for an Atlanta-based, UAV company head quatered in Germany that manufactures heavy-lifter type drones that can carry LiDAR payloads of up to 20lbs in weight. The images above show some of the drones we manufacture. My role is to conduct test flights with these drones whenever a new drone or payload firmware is released. I also do repairs on client drones that come in for maintanace and conduct test flights on those before shipping them back to the clients. My main role however is flight instructing and conducting trainings for clients that purchase our UAVs.  </p>
+            </article>
+           <article class="main-article">
+                <h1 class="heading-description">Point Cloud Generation</h1>
+                <p class="heading-description"><strong>The most valued product for our clients</strong></p>
+                <figure id = "figures_2">
+                    <img src = "images/Screenshot 2022-07-27 103157.png" width = "360px" height = "320px">
+                    <img src = "images/Screenshot 2022-07-27 115750.png" width = "360px" height = "320px">
+                    <img src = "images/Screenshot 2022-07-28 144940.png" width = "370px" height = "320px">
+                    <figcaption><em>3 dimensional point cloud files</em></figcaption>
+                </figure>
+                <p id = "P2">Drones have revolutionised a lot of ways in which many tasks are done, especially in the surveying world. They have made tasks safer, faster, and more profitable which are three facets that are very valuable to any business and so many companies have adopted this technology in order to stay competitive. Drones are being used to conduct critical infrastructure inspections using electro-optical sensors, high-zoom rgb cameras, infrared, and LiDAR technology. These different technologies are often not built into the drones and so a user must also purchase a payload that is attached to the bottom of the drone that has the desired ability. Above are snapshots of some data captured by our drones and have generated a 3D point cloud that can be manipulated and moved around in a 3D viewing software that can read LAS files. From here, clients often classify the LAS files and have the software differentiate between the buildings, grass and trees from the ground and strip out everything so that only the ground is showing. They can then create a surface from the remaining LAS which can be converted to a contour map that is given to civil engineers that then use that map for buiding new developments.</p>
+           </article> 
+        </div>
+        <div id="me-sidebar">
+            <article class="me-sidebar-article">
+                <img id="profile-picture"  src="images/IMG-4193.jpg">
+            </article>
+                <ul class="me-list">
+                    <li><strong>Tapiwa Pioto</strong></li>
+                    <li>8489 Stortford Rd</li>
+                    <li>Atlanta, GA 30087</li>
+                    <li>866 788 0912</li>
+                </ul>
+        </div>
+        <div id="interesting-sidebar">
+            <ul>
+                <li><em><strong>Travel Suggestions</strong></em></li><br>
+                <li><img src="images/IMG-5112.jpg" height="50px" width="50px"><a href="https://visitinglaketahoe.com/"> Lake Tahoe, California</a></li>
+                <li><img src="images/45539.jpg" height="50px" width="50px"><a href="https://www.yosemite.com/">Yosemite National Park, California</a></li>
+                <li><img src="images/IMG-0032.jpg" height="50px" width="50px"><a href="https://gardenofgods.com/"> Garden of the gods, Colorado</a> </li>
+                <li><img src="images/IMG-8542.jpg"height="50px" width="50px"><a href="https://www.stonemountainpark.com/">Stone Mountain Park, Georgia</a></li>
+            </ul>
+        </div>
+        <div>
+           <article id="contact">
+                <h1 id="form-header">Contact me:</h1>
+                <form action:"mailto:tpiloto@liberty.edu" method="POST" class="form-text">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" placeholder="Your name"><br><br>
+                    <label for="body">Your message:</label><br>
+                    <textarea id="body" placeholder="Your message" rows="21" cols="21"></textarea><br>
+                    <button type="submit">Submit</button>
+                </form>
+           </article> 
+        </div>
+    </main>   
+</body>
+</html>
